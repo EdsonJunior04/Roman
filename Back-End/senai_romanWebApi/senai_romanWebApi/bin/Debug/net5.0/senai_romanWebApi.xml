@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>senai_romanWebApi</name>
+    </assembly>
+    <members>
+        <member name="M:senai_romanWebApi.Interfaces.ITemaRepository.ListarTodos">
+            <summary>
+            Listar todos os temas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_roman_WebApi.Interfaces.IProjetoRepository.ListarTodos">
+            <summary>
+            Lista todos os projetos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai_roman_WebApi.Interfaces.IProjetoRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um projeto atráves do id
+            </summary>
+            <param name="idProjeto">Id do projeto a ser buscado</param>
+            <returns></returns>
+        </member>
+        <member name="M:senai_roman_WebApi.Interfaces.IProjetoRepository.Cadastrar(senai_romanWebApi.Domains.Projeto)">
+            <summary>
+            Cadastrar um novo projeto
+            </summary>
+            <param name="novoProjeto">Objeto Projeto a ser cadastrado</param>
+        </member>
+        <member name="M:senai_roman_WebApi.Interfaces.IProjetoRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um projeto atráves do id
+            </summary>
+            <param name="idProjeto">Id do projeto a ser deletado</param>
+        </member>
+        <member name="M:senai_roman_WebApi.Interfaces.IProjetoRepository.AtualizarUrl(System.Int32,senai_romanWebApi.Domains.Projeto)">
+            <summary>
+            Atualizar 
+            um projeto atráves do id
+            </summary>
+            <param name="idProjeto">Id do projeto a ser atualizado</param>
+            <param name="ProjetoAtualizado">Objeto projeto a ser atualizado</param>
+        </member>
+    </members>
+</doc>
